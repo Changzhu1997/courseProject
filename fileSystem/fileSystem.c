@@ -1,9 +1,3 @@
-//Filename:      main.c
-//Team Members:  Chang Zhu  and Tiantian Chen
-//UTD_ID:        2021488223 and 2021465620
-//NetID:         cxz190003 and txc180014
-//Class:         OS 5348.001
-//Project:       Project 3
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
