@@ -1,4 +1,4 @@
-## This C program is used to create a new fileSystem based on some changes which can be made to the original V6 file System.<br>V6 file system is highly restrictive.<br>A modification has been done: Block size is 1024 Bytes, i-node size is 64 Bytes and i-node’s structure has been modified as well.<br>This file system is able to store a file which is 4G large.<br>You can also change the size of address array in i-node structure or the way you link data block to the address array (single indirect, double indirect, triple indirect etc.) to store larger file.
+## This C program is used to create a new fileSystem based on some changes which can be made to the original V6 file System.<br><br>A modification has been done: Block size is 1024 Bytes, i-node size is 64 Bytes and i-node’s structure has been modified as well.<br><br>This file system is able to store a file which is 4G large.<br><br>You can also change the size of address array in i-node structure or the way you link data block to the address array (single indirect, double indirect, triple indirect etc.) to store larger file.
 
 ## Following are the command i create for this file system. 
 
@@ -8,6 +8,7 @@ n1 is the number of blocks in the disk (fsize) and n2 is the total number of i-n
 This command initializes the file system. 
 All data blocks are in the free list 
 (except for one data blosk that is allocated to the root /. An example is: initfs /user/ChangZhu/disk 800000 300
+### fsname can be either absolute path or relative path
 
 ### (b) `cpin` externalfile v6-file
        Creat a new file called v6-file in the v6 file system and fill the contents of the newly created 
@@ -38,7 +39,8 @@ change current (working) directory to the dirname
 Remove the directory specified (dir, in this case).
 
 ## (j) `openfs` fileSystem
-enter the fileSystem create by this program.
+enter the fileSystem which is created by this program.
+### fileSystem can be either absolute path or relative path
 
 ## (k) `q`
 Save all changes and quit
