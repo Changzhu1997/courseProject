@@ -10,7 +10,7 @@ All data blocks are in the free list
 (except for one data blosk that is allocated to the root /. An example is: initfs /user/ChangZhu/disk 800000 300
 ### fsname can be either absolute path or relative path
 
-### (b) `cpin` externalfile v6-file
+## (b) `cpin` externalfile v6-file
        Creat a new file called v6-file in the v6 file system and fill the contents of the newly created 
        file with the contents of the externalfile.
 ### file path for externalfile should be absolute path
