@@ -1,4 +1,4 @@
-## This C program is used to create a new fileSystem based on some changes which can be made to the original V6 file System.  V6 file system is highly restrictive.  A modification has been done: Block size is 1024 Bytes, i-node size is 64 Bytes and i-node’s structure has been modified as well.  This file system is able to store a file which is 4G large.  You can also change the size of address array in i-node structure or the way you link data block to the address array (single indirect, double indirect, triple indirect etc.) to store larger file.
+## This C program is used to create a new fileSystem based on some changes which can be made to the original V6 file System.  <br>V6 file system is highly restrictive.  A modification has been done: Block size is 1024 Bytes, i-node size is 64 Bytes and i-node’s structure has been modified as well.  This file system is able to store a file which is 4G large.  You can also change the size of address array in i-node structure or the way you link data block to the address array (single indirect, double indirect, triple indirect etc.) to store larger file.
 
 ## Following are the command i create for this file system. 
 
