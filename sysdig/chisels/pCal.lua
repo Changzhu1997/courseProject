@@ -1,6 +1,6 @@
-
+-- This chisel is used to get process duration information
 -- Chisel description
-description = "basic chisel"
+description = "process duration chisel"
 short_description = "basic"
 category = "misc"
 -- Chisel argument list
