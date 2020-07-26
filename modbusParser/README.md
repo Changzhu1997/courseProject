@@ -5,3 +5,7 @@ And the resulted pcap file can be analysed by wireshark.
 ## Achieve serial Port sniffing  
 Combined use with [interceptty](https://github.com/geoffmeyers/interceptty) we can get packets in pcap format <br>
 wiche can be used by wireshark to analyse.
+
+```code
+sudo interceptty backdevice frontdevice | interceptty-nicedump
+```
